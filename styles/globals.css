@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'RaleWay', 'Syncopate', sans-serif;
+}
+
+.custom-img {
+    background-image: url('https://uploads-ssl.webflow.com/61706e8fa79688f7323fd4f2/62c363d96eee7f2beacddb1c_Group%20228.png');
+}
+
+.custom-img-2 {
+    background-image: url('https://uploads-ssl.webflow.com/61706e8fa79688f7323fd4f2/62c363d96eee7f7db1cddb11_235.jpg');
+}
+
+.custom-business {
+    background-image: url('https://uploads-ssl.webflow.com/61706e8fa79688f7323fd4f2/62cb4db065c529987ce285e3_charles-forerunner-3fPXt37X6UQ-unsplash%201%20(1).png');
+}
