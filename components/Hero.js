@@ -50,9 +50,11 @@ const Hero = () => {
               <br />
               freedom of choice.
             </p>
-            <button className="text-black text-sm font-thin tracking-widest bg-[#fed500] rounded-[10px] p-[5px] px-[20px] mt-2 shadow-black shadow-md">
-              Sign Up
-            </button>
+            <Link href="/sign-up">
+              <button className="text-black text-sm font-thin tracking-widest bg-[#fed500] rounded-[10px] p-[5px] px-[20px] mt-2 shadow-black shadow-md">
+                Sign Up
+              </button>
+            </Link>
           </div>
         </div>
       </div>
