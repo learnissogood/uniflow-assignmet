@@ -16,10 +16,8 @@ export default function Home() {
       <div className="h-screen bg-fixed bg-center bg-cover custom-img-2 z-0">
         <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/40">
           <div className="h-screen bg-fixed bg-center bg-cover custom-img z-1">
-            <div>
-              <Navbar />
-              <Hero />
-            </div>
+            <Navbar />
+            <Hero />
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ const Hero = () => {
           </Link>
         </div>
         <div className="flex flex-row">
-          <div className="">
+          <div>
             <div className="py-2">
               <ul className="bg-[#0c75d7]/75 tracking-wider rounded-[10px] p-[10px] px-12">
                 I am living pay check to pay check
