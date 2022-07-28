@@ -63,19 +63,19 @@ const Navbar = () => {
       <div>
         <Image src={logo} alt="Universal Flow Logo" height={60} width={300} />
       </div>
-      <div className="grid justify-items-stretch items-center grid-flow-col gap-[40px] text-2xl">
+      <div className="flex flex-row gap-[40px] items-center justify-center text-2xl">
         <Link href="/">
-          <a>Personal</a>
+          <a className="hover:text-black">Personal</a>
         </Link>
         <Link href="/business">
-          <a>Business</a>
+          <a className="hover:text-black">Business</a>
         </Link>
         <div>
-          <button onClick={handleClick}>
+          <button onClick={handleClick} className="flex items-center justify-center w-[50px] h-[50px] hover:text-black hover:bg-white/50 hover:rounded-lg">
             {isOpen ? (
-              <AiOutlineClose className="text-white" size={40} />
+              <AiOutlineClose className="rounded-sm" size={40} />
             ) : (
-              <AiOutlineMenu className="text-white" size={40} />
+              <AiOutlineMenu className=" rounded-sm" size={40} />
             )}
           </button>
         </div>
