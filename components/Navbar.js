@@ -65,10 +65,10 @@ const Navbar = () => {
       </div>
       <div className="flex flex-row gap-[40px] items-center justify-center text-2xl">
         <Link href="/">
-          <a className="hover:text-black">Personal</a>
+          <a className="hover:text-black hover:bg-white/50 hover:rounded-lg p-2">Personal</a>
         </Link>
         <Link href="/business">
-          <a className="hover:text-black">Business</a>
+          <a className="hover:text-black hover:bg-white/50 hover:rounded-lg p-2">Business</a>
         </Link>
         <div>
           <button onClick={handleClick} className="flex items-center justify-center w-[50px] h-[50px] hover:text-black hover:bg-white/50 hover:rounded-lg">
