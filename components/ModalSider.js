@@ -14,7 +14,6 @@ const ModalSider = ({
   title = "Alerta",
   text = "Alerta",
   buttonColor = "bg-blue-500",
-  siderColor1
 }) => {
   return (
     <>
