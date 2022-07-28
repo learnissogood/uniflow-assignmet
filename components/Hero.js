@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import ModalSider from "./ModalSider";
-import Image from "next/image";
-import sider from "../assets/sider-car-1.png";
-import siderColor from "../assets/sider-card-color1.png";
-import siderColor2 from "../assets/sider-card-color2.png";
-import siderColor3 from "../assets/sider-card-color3.png";
 
 const Hero = () => {
   const [isOpen1, setIsOpen1] = useState(false);
@@ -143,7 +138,7 @@ const Hero = () => {
                   setIsOpen5(true);
                 }}
               >
-                <ul className="bg-[#0c75d7]/75 tracking-wider rounded-[10px] p-[10px] px-8 hover:bg-black/50">
+                <ul className="bg-[#0c75d7]/75 tracking-wider rounded-[10px] p-[10px] px-12 hover:bg-black/50">
                   I am in debt (commig soon)
                 </ul>
               </div>
